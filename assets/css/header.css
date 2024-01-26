@@ -1,0 +1,25 @@
+body {
+  text-align: center;
+}
+
+.top_nav {
+  overflow: hidden;
+  background-color: black;
+}
+
+.top_nav a {
+  float: left;
+  color: beige;
+  text-align: center;
+  padding: 20px 20px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.top_nav a:hover {
+  font-weight: bold;
+}
+
+.account a {
+  float: right;
+}
