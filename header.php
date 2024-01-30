@@ -14,7 +14,7 @@
             padding: 5% 10%;
             backdrop-filter: blur(15px);
             /* Control the size of blurred area */
-            padding: 2% 50%;
+            padding: 2% 40%;
         }
 
         .big_img {
@@ -122,7 +122,7 @@
                         'container' => false,
                         'theme_location' => 'primary',
                         'menu_class' => 'nav navbar-nav',
-                        'items_wrap' => '<ul id="" class="topnav_padding">%3$s</ul>'
+                        'items_wrap' => '<ul id="" class="topnav_padding" style="display:flex; padding: 30px; gap: 20px; align-items: center; justify-content: flex;">%3$s</ul>'
                     )
                 );
                 ?>

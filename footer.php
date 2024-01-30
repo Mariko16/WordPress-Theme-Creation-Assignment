@@ -30,14 +30,16 @@
     <footer>
         <div class="footer-content-wrapper">
             <div class="foot">
+
                 <?php
                 wp_nav_menu(
                     array(
                         //'menu' => 'primary',
+
                         'container' => false,
                         'theme_location' => 'primary',
                         'menu_class' => 'nav navbar-nav',
-                        'items_wrap' => '<ul id="" class="topnav_padding">%3$s</ul>'
+                        'items_wrap' => '<ul id="" class="topnav_padding" style="display: flex; gap: 8px; flex-direction: column; ">%3$s<td></ul>'
                     )
                 );
                 ?>
