@@ -14,6 +14,14 @@
             text-align: center;
             list-style-type: none;
             padding: 20px 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+        }
+
+        .tag {
+            font-size: 16px;
         }
     </style>
 </head>
@@ -26,6 +34,7 @@
         <div class="meta mb-3">
             <span class="date"><?php the_date(); ?></span>
             <div class="tag_names">
+                <p class="tag">Tags: </p>
 
                 <?php
                 $my_tags = get_the_tags();

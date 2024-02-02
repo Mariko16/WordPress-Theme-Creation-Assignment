@@ -23,6 +23,54 @@
         .search {
             text-align: center;
         }
+
+        .search label {
+            color: blanchedalmond;
+        }
+
+        .search button {
+            padding: 6px 10px;
+            margin-top: 8px;
+            background: #ddd;
+            font-size: 17px;
+            border: solid;
+            cursor: pointer;
+        }
+
+        .search button:hover {
+            font-weight: bold;
+        }
+
+        .search input {
+            padding: 6px 10px;
+            margin-top: 8px;
+            font-size: 17px;
+            border: solid;
+            cursor: pointer;
+        }
+
+        .footnav_padding {
+            display: flex;
+            gap: 20px;
+            align-items: center;
+            justify-content: center;
+            vertical-align: middle;
+            color: blanchedalmond;
+        }
+
+        .footnav_padding a {
+            color: black;
+        }
+
+        .nav-links a,
+        .nav-links span {
+            padding: 10px 10px;
+        }
+
+        .nav-links a,
+        .nav-links span:hover {
+            text-decoration: underline;
+        }
     </style>
 </head>
 
@@ -39,7 +87,7 @@
                         'container' => false,
                         'theme_location' => 'primary',
                         'menu_class' => 'nav navbar-nav',
-                        'items_wrap' => '<ul id="" class="topnav_padding" style="display: flex; gap: 8px; flex-direction: column; ">%3$s<td></ul>'
+                        'items_wrap' => '<ul id="" class="footnav_padding">%3$s</ul>'
                     )
                 );
                 ?>

@@ -1,3 +1,11 @@
+<style>
+    h2 {
+        font-size: 18px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+</style>
+
+
 <div class="comments-wrapper">
     <div class="comments" id="comments">
         <div class="comments-header">
@@ -32,7 +40,7 @@
             array(
                 'class-form' => '',
                 'title_reply_befoe' => '<h2 id="reply-title" class="comment-reply-title">',
-                'title_reply_after' => '<h2>'
+                'title_reply_after' => ''
             )
         );
     }
